@@ -49,3 +49,7 @@ desktop.ini
 
 project-plan.md
 project-plan-*.md
+
+# Local blog drafts (not part of the repo)
+blog/ledger-decision-memory-graph.md
+blog/ledger-decision-memory-graph-medium.txt

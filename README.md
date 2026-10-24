@@ -4,6 +4,10 @@ A local **decision-memory graph** over your AI chats. Exports become conversatio
 
 You query it from the CLI or from Cursor / Claude Desktop over **stdio MCP**.
 
+![Ledger knowledge graph in FalkorDB](images/img1.png)
+
+A real graph after ingest + extract: orange **Conversation** hubs, pink **Message** stars (`HAS_MESSAGE`), and claims/decisions hanging off messages (`EXTRACTED_FROM`). Islands are normal — chats only join when they share an entity.
+
 Personal exports, redacted JSONL, `.env`, and model caches are gitignored. See [CONTRIBUTING.md](CONTRIBUTING.md) to add adapters (ChatGPT, Gemini, Claude Code, Antigravity, Codex, …).
 
 ## What it stores
