@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ledger": {
+      "command": "C:\\Users\\karth\\OneDrive\\Desktop\\decision-memory-graph\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "ledger.cli", "mcp"],
+      "cwd": "C:\\Users\\karth\\OneDrive\\Desktop\\decision-memory-graph",
+      "env": {
+        "LEDGER_USER": "default",
+        "FALKORDB_HOST": "localhost",
+        "FALKORDB_PORT": "6379"
+      }
+    }
+  }
+}

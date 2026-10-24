@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "conv-1",
+    "name": "Pick a database",
+    "created_at": "2026-07-01T10:00:00Z",
+    "updated_at": "2026-07-01T10:10:00Z",
+    "summary": "User chooses Postgres.",
+    "chat_messages": [
+      {
+        "uuid": "m1",
+        "sender": "human",
+        "text": "Should I use Postgres or MongoDB? Data should stay under 10 GB.",
+        "created_at": "2026-07-01T10:00:00Z",
+        "content": [{"type": "text", "text": "Should I use Postgres or MongoDB? Data should stay under 10 GB."}]
+      },
+      {
+        "uuid": "m2",
+        "sender": "assistant",
+        "text": "Postgres is a solid default for structured data.",
+        "created_at": "2026-07-01T10:01:00Z",
+        "content": [{"type": "text", "text": "Postgres is a solid default for structured data."}]
+      },
+      {
+        "uuid": "m3",
+        "sender": "human",
+        "text": "I'll go with Postgres over MongoDB because of SQL and backups. Contact me at test@example.com.",
+        "created_at": "2026-07-01T10:02:00Z",
+        "content": [{"type": "text", "text": "I'll go with Postgres over MongoDB because of SQL and backups. Contact me at test@example.com."}]
+      }
+    ]
+  }
+]

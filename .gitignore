@@ -1,0 +1,51 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets — never commit keys
+.env
+.env.local
+.env.*.local
+
+# LLM / embedding caches
+.cache/
+*.sqlite
+*.sqlite3
+
+# Personal chat exports, redacted JSONL, memories, takeouts
+/data/private/
+/data/.venv/
+/data/.git/
+*.zip
+
+# Extra belt: raw dumps if someone drops them at repo root
+conversations.json
+conversations-*.json
+chatgpt_export/
+claude_export/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+*.iml
+
+# Local Cursor junk (keep .cursor/mcp.json — it has no secrets)
+.cursor/*.log
+
+project-plan.md
+project-plan-*.md
